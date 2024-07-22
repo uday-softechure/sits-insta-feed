@@ -1,5 +1,5 @@
 {
-    "name": "vendor/sits-insta-feed",
+    "name": "sits-insta-feed",
     "description": "A package for displaying Instagram feeds",
     "type": "library",
     "require": {
@@ -7,13 +7,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\SitsInstaFeed\\": "src/"
+            "SitsInstaFeed\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\SitsInstaFeed\\SitsInstaFeedServiceProvider"
+                "SitsInstaFeed\\SitsInstaFeedServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\SitsInstaFeed;
+namespace SitsInstaFeed;
 
 use Illuminate\Support\ServiceProvider;
 
